@@ -20,7 +20,7 @@
 						},
 						{
 							"teamA" : "OK",
-							"teamB" : "Wayne State College 1",
+							"teamB" : "WSC 1",
 							"sheet" : "B",
 							"isFinal" : true,
 							"scoreA" : 8,
@@ -35,7 +35,7 @@
 							"scoreB" : 5
 						},
 						{
-							"teamA" : "Wayne State College 2",
+							"teamA" : "WSC 2",
 							"teamB" : "DU 3",
 							"sheet" : "D",
 							"isFinal" : true,
@@ -65,7 +65,7 @@
 						},
 						{
 							"teamA" : "UNL 1",
-							"teamB" : "Wayne State College 1",
+							"teamB" : "WSC 1",
 							"sheet" : "D",
 							"isFinal" : true,
 							"scoreA" : 11,
@@ -73,7 +73,7 @@
 						},
 						{
 							"teamA" : "DU 2",
-							"teamB" : "Wayne State College 2",
+							"teamB" : "WSC 2",
 							"sheet" : "A",
 							"isFinal" : true,
 							"scoreA" : 5,
@@ -86,23 +86,35 @@
 					"games" : [
 						{
 							"teamA" : "UNL 2",
-							"teamB" : "Wayne State College 2",
-							"sheet" : "A"
+							"teamB" : "WSC 2",
+							"sheet" : "C",
+							"isFinal" : true,
+							"scoreA" : 11,
+							"scoreB" : 3
 						},
 						{
 							"teamA" : "DU 2",
 							"teamB" : "DU 3",
-							"sheet" : "B"
+							"sheet" : "D",
+							"isFinal" : true,
+							"scoreA" : 8,
+							"scoreB" : 3
 						},
 						{
 							"teamA" : "DU 1",
-							"teamB" : "Wayne State College 1",
-							"sheet" : "C"
+							"teamB" : "WSC 1",
+							"sheet" : "A",
+							"isFinal" : true,
+							"scoreA" : 8,
+							"scoreB" : 6
 						},
 						{
 							"teamA" : "UNL 1",
 							"teamB" : "OK",
-							"sheet" : "D"
+							"sheet" : "B",
+							"isFinal" : true,
+							"scoreA" : 3,
+							"scoreB" : 13
 						}
 					]
 				}
@@ -116,15 +128,15 @@
 					"name" : "Round 1",
 					"games" : [
 						{
-							"teamA" : "#1 Pool A",
-							"teamB" : "#2 Pool B",
+							"teamA" : "OU",
+							"teamB" : "WSC 2",
 							"sheet" : "A",
 							"time" : "2016-11-13T16:00:00.000Z",
 							"extra" : "(Loser to A Consolation)"
 						},
 						{
-							"teamA" : "#1 Pool B",
-							"teamB" : "#2 Pool A",
+							"teamA" : "UNL 1",
+							"teamB" : "UNL 2",
 							"sheet" : "D",
 							"time" : "2016-11-13T16:00:00.000Z",
 							"extra" : "(Loser to A Consolation)"
@@ -152,15 +164,15 @@
 					"name" : "Round 1",
 					"games" : [
 						{
-							"teamA" : "#3 Pool A",
-							"teamB" : "#4 Pool B",
+							"teamA" : "DU 1",
+							"teamB" : "DU 3",
 							"sheet" : "B",
 							"time" : "2016-11-13T16:00:00.000Z",
 							"extra" : "(Loser to B Consolation)"
 						},
 						{
-							"teamA" : "#3 Pool B",
-							"teamB" : "#4 Pool A",
+							"teamA" : "DU 2",
+							"teamB" : "WSC 1",
 							"sheet" : "C",
 							"time" : "2016-11-13T16:00:00.000Z",
 							"extra" : "(Loser to B Consolation)"
