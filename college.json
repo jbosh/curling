@@ -3,6 +3,71 @@
 	"tabs" :
 	[
 		{
+			"type" : "standings",
+			"name" : "Standings",
+			"tables" :
+			[
+				{
+					"title" : "Pool A",
+					"teams" : [
+						{
+							"name" : "OU",
+							"wins" : 3,
+							"losses" : 2,
+							"lsd" : 27.5
+						},
+						{
+							"name" : "UNL 1",
+							"wins" : 2,
+							"losses" : 1,
+							"lsd" : 8
+						},
+						{
+							"name" : "DU 1",
+							"wins" : 1,
+							"losses" : 2,
+							"lsd" : 29
+						},
+						{
+							"name" : "WSC 1",
+							"wins" : 0,
+							"losses" : 3,
+							"lsd" : 30.5
+						}
+					]
+				},
+				{
+					"title" : "Pool B",
+					"teams" : [
+						{
+							"name" : "UNL 2",
+							"wins" : 3,
+							"losses" : 0,
+							"lsd" : 74
+						},
+						{
+							"name" : "WSC 2",
+							"wins" : 2,
+							"losses" : 1,
+							"lsd" : 74
+						},
+						{
+							"name" : "DU 2",
+							"wins" : 1,
+							"losses" : 2,
+							"lsd" : 74
+						},
+						{
+							"name" : "DU 3",
+							"wins" : 0,
+							"losses" : 3,
+							"lsd" : 62
+						}
+					]
+				}
+			]
+		},
+		{
 			"type": "round-robin",
 			"name": "Round Robin",
 			"sheets" : ["A", "B", "C", "D"],
@@ -20,7 +85,7 @@
 						},
 						{
 							"teamA" : "OK",
-							"teamB" : "WSC 1",
+							"teamB" : "Wayne State College 1",
 							"sheet" : "B",
 							"isFinal" : true,
 							"scoreA" : 8,
@@ -35,7 +100,7 @@
 							"scoreB" : 5
 						},
 						{
-							"teamA" : "WSC 2",
+							"teamA" : "Wayne State College 2",
 							"teamB" : "DU 3",
 							"sheet" : "D",
 							"isFinal" : true,
@@ -65,7 +130,7 @@
 						},
 						{
 							"teamA" : "UNL 1",
-							"teamB" : "WSC 1",
+							"teamB" : "Wayne State College 1",
 							"sheet" : "D",
 							"isFinal" : true,
 							"scoreA" : 11,
@@ -73,7 +138,7 @@
 						},
 						{
 							"teamA" : "DU 2",
-							"teamB" : "WSC 2",
+							"teamB" : "Wayne State College 2",
 							"sheet" : "A",
 							"isFinal" : true,
 							"scoreA" : 5,
@@ -86,7 +151,7 @@
 					"games" : [
 						{
 							"teamA" : "UNL 2",
-							"teamB" : "WSC 2",
+							"teamB" : "Wayne State College 2",
 							"sheet" : "C",
 							"isFinal" : true,
 							"scoreA" : 11,
@@ -102,7 +167,7 @@
 						},
 						{
 							"teamA" : "DU 1",
-							"teamB" : "WSC 1",
+							"teamB" : "Wayne State College 1",
 							"sheet" : "A",
 							"isFinal" : true,
 							"scoreA" : 8,
@@ -132,14 +197,20 @@
 							"teamB" : "WSC 2",
 							"sheet" : "A",
 							"time" : "2016-11-13T16:00:00.000Z",
-							"extra" : "(Loser to A Consolation)"
+							"extra" : "(Loser to A Consolation)",
+							"isFinal" : true,
+							"scoreA" : 7,
+							"scoreB" : 6
 						},
 						{
 							"teamA" : "UNL 1",
 							"teamB" : "UNL 2",
 							"sheet" : "D",
 							"time" : "2016-11-13T16:00:00.000Z",
-							"extra" : "(Loser to A Consolation)"
+							"extra" : "(Loser to A Consolation)",
+							"isFinal" : true,
+							"scoreA" : 7,
+							"scoreB" : 7
 						}
 					]
 				},
@@ -147,8 +218,8 @@
 					"name" : "Round 2",
 					"games" : [
 						{
-							"teamA" : "",
-							"teamB" : "",
+							"teamA" : "OU",
+							"teamB" : "UNL 2",
 							"sheet" : "B",
 							"time" : "2016-11-13T20:00:00.000Z"
 						}
@@ -164,18 +235,24 @@
 					"name" : "Round 1",
 					"games" : [
 						{
-							"teamA" : "DU 1",
+							"teamA" : "DU 2",
 							"teamB" : "DU 3",
 							"sheet" : "B",
 							"time" : "2016-11-13T16:00:00.000Z",
-							"extra" : "(Loser to B Consolation)"
+							"extra" : "(Loser to B Consolation)",
+							"isFinal" : true,
+							"scoreA" : 8,
+							"scoreB" : 6
 						},
 						{
 							"teamA" : "DU 2",
 							"teamB" : "WSC 1",
 							"sheet" : "C",
 							"time" : "2016-11-13T16:00:00.000Z",
-							"extra" : "(Loser to B Consolation)"
+							"extra" : "(Loser to B Consolation)",
+							"isFinal" : true,
+							"scoreA" : 3,
+							"scoreB" : 13
 						}
 					]
 				},
@@ -183,8 +260,8 @@
 					"name" : "Round 2",
 					"games" : [
 						{
-							"teamA" : "",
-							"teamB" : "",
+							"teamA" : "DU 1",
+							"teamB" : "WSC 1",
 							"sheet" : "C",
 							"time" : "2016-11-13T20:00:00.000Z"
 						}
@@ -200,8 +277,8 @@
 					"name" : "Round 1",
 					"games" : [
 						{
-							"teamA" : "",
-							"teamB" : "",
+							"teamA" : "WSC 2",
+							"teamB" : "UNL 2",
 							"sheet" : "A",
 							"time" : "2016-11-13T20:00:00.000Z"
 						}
@@ -217,8 +294,8 @@
 					"name" : "Round 1",
 					"games" : [
 						{
-							"teamA" : "",
-							"teamB" : "",
+							"teamA" : "DU 3",
+							"teamB" : "DU 2",
 							"sheet" : "D",
 							"time" : "2016-11-13T20:00:00.000Z"
 						}
