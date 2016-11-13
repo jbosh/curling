@@ -50,22 +50,34 @@
 						{
 							"teamA" : "UNL 2",
 							"teamB" : "DU 3",
-							"sheet" : "A"
+							"sheet" : "B",
+							"isFinal" : true,
+							"scoreA" : 8,
+							"scoreB" : 4
 						},
 						{
 							"teamA" : "DU 1",
 							"teamB" : "OK",
-							"sheet" : "B"
+							"sheet" : "C",
+							"isFinal" : true,
+							"scoreA" : 3,
+							"scoreB" : 11
 						},
 						{
 							"teamA" : "UNL 1",
 							"teamB" : "Wayne State College 1",
-							"sheet" : "C"
+							"sheet" : "D",
+							"isFinal" : true,
+							"scoreA" : 11,
+							"scoreB" : 4
 						},
 						{
 							"teamA" : "DU 2",
 							"teamB" : "Wayne State College 2",
-							"sheet" : "D"
+							"sheet" : "A",
+							"isFinal" : true,
+							"scoreA" : 5,
+							"scoreB" : 9
 						}
 					]
 				},
